@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.card1img {
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    width: 93.6%;
+    margin: auto;
+}
+
+.card {
+    position: relative;
+    width: 305px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.cimg {
+    width: 100%;
+    display: block; 
+    background: linear-gradient(to top, rgba(15, 18, 23, 0.7), rgba(15, 18, 23, 0.7));
+}
+
+.gradientOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(15, 18, 23, 0.7), rgba(15, 18, 23, 0.7)); 
+    z-index: 1; 
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+}
+
+.card:hover .gradientOverlay {
+    opacity: 1;
+}
+
+.card h1, .card p {
+    position: absolute;
+    color: white;
+    z-index: 2; 
+}
+
+.card h1 {
+    bottom: 12%;
+    left: 7%;
+    width: 100%;
+    padding: 8px 0; 
+    margin: 0;
+    font-size: 20px;
+}
+
+.card p {
+    bottom: 5%;
+    left: 7%;
+    width: 100%;
+    padding: 8px 0; 
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.hov:hover{
+    cursor: pointer;
+    color: #B5B2B2;
+}
+
+.card p img {
+    width: 20px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(200%) contrast(100%);
+    position: absolute;
+    left: 25%;
+    top: 5.5px;
+    z-index: 2; 
+}

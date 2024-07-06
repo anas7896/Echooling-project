@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar {
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    animation: fadeInDown 1s; 
+}
+
+.homes {
+    position: relative;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-left: 200px;
+}
+
+.homeItem {
+    position: relative;
+    padding: 10px 20px 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000; 
+    transition: color 0.5s ease; 
+}
+
+.hoo {
+    color: #D2093C;
+}
+
+.homeItem:hover {
+    color: #D2093C;
+}
+
+.dropdownContent {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    font-weight: normal !important;
+    font-size: 15px !important;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none;
+    min-width: 160px;
+    padding: 10px 0;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.5s ease, visibility 0s linear 0.5s, transform 0.5s ease; 
+}
+
+.homeItem:hover .dropdownContent {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition-delay: 0s, 0s, 0s; 
+}
+
+.homeItem:hover .dropdownContent::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0 10px 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent #ffffff transparent;
+}
+
+.dropdownContent li {
+    padding: 12px 16px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #000; 
+    transition: color 0.3s ease; 
+}
+
+.dropdownContent li:hover {
+    background-color: white; 
+    color: #D2093C; 
+}
+
+.search {
+    background-color: #f4f5f5;
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+}
+
+.searchicon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px; 
+    color: blue; 
+    transition: all 0.5s ease; 
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

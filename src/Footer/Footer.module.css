@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .footer {
+    position: relative;
+    padding-top: 100px;
+    background-color: #0F1216;
+    top: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    color: white;
+  }
+  
+  .footimg img {
+    padding-bottom: 25px;
+  }
+  
+  .footer ul li p i {
+    color: white;
+  }
+  
+  .there {
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .footer li {
+    list-style: none;
+    position: relative;
+    transition: color 0.5s ease, transform 0.5s ease;
+  }
+  
+  .footer ul h2 {
+    padding-bottom: 35px;
+  }
+  
+  .footer ul li {
+    padding-bottom: 10px;
+  }
+  
+  .searchli input {
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .searchli i {
+    position: relative;
+    left: -15%;
+  }
+  
+  .phone {
+    font-size: 17px;
+  }
+  
+  .email {
+    font-size: 17px;
+  }
+  
+  .aboutul {
+    color: #cbc8c8;
+  }
+  
+  .useful {
+    color: #cbc8c8;
+  }
+  
+  .aboutul h2 {
+    color: white;
+  }
+  
+  .aboutul li{
+    margin-bottom: 15px;
+  }
+
+  .useful li{
+    margin-bottom: 15px;
+  }
+
+  .useful h2 {
+    color: white;
+  }
+  
+  .com {
+    color: #cbc8c8;
+    margin-left: 10px;
+  }
+  
+  .get {
+    margin-bottom: 30px;
+  }
+  
+  .useful li:hover,
+  .aboutul li:hover,
+  .com:hover {
+    cursor: pointer;
+    color: #D2093C;
+  }
+  
+  .useful li::after,
+  .aboutul li::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 2px;
+    background: #D2093C;
+    transition: width 0.5s;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .useful li:hover::after,
+  .aboutul li:hover::after {
+    width: 100%;
+  }
+  
+  .useful li:hover,
+  .aboutul li:hover {
+    transform: translateX(5px);
+    color: #D2093C;
+  }
+  
+  .phone:hover,
+  .email:hover {
+    color: #D2093C;
+    transition: color 0.5s ease;
+  }
+
+  
+  .all{
+    margin-top: 651px;
+    display: flex;
+    color: white;
+    background-color: #0F1216;
+    padding-bottom: 50px;
+  }
+
+  .all p{
+    padding-top: 50px;
+    padding-left: 65px;
+  }
+
+  .hrrrrr{
+    color: red;
+  }
+
+  .ec{
+    color: #D2093C;
+    cursor: pointer;
+  }

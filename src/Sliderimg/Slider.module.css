@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.imgw{
+    width: 100%;
+}
+
+.greate{
+    display: inline-block;
+    background-color: #D2093C;
+    text-align: center;
+    padding: 8px 7px;
+    color: white;
+    position: relative;
+    top: -535px;
+    left: 4%;
+    font-size: 25px;
+}
+
+.discover{
+    display: inline-block;
+    letter-spacing: -2px;
+    text-align: center;
+    padding: 8px 14px;
+    color: white;
+    position: relative;
+    top: -380px;
+    font-size: 64px;
+    left: -240px;
+}
+
+.spaan{
+    position: relative;
+    left: -29px;
+    font-family: sans-serif;
+}
+

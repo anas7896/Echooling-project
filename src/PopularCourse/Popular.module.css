@@ -1,0 +1,156 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .popularContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1350px;
+  }
+  
+  .popular {
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 1300px;
+  }
+  
+  .poimg {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 23%; /* 4 cards in one row with equal spacing */
+    margin-top: 20px;
+  }
+  
+  .poimg img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .ux {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 25px;
+  }
+  
+  .less {
+    padding-right: 25px;
+    color: #D2093C;
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
+  
+  .lesson {
+    font-size: 15px;
+    color: #00306E;
+  }
+  
+  .less i, .lesson i {
+    font-size: 8px;
+    padding-right: 7px;
+  }
+  
+  .dave {
+    padding-left: 25px;
+    color: #00306E;
+    font-size: 24px;
+    line-height: 1.5;
+    padding-bottom: 25px;
+  }
+  
+  .dave h5 {
+    transition: color 0.3s ease;
+  }
+  
+  .dave h5:hover {
+    cursor: pointer;
+    color: #D2093C;
+  }
+  
+  .stu {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+  }
+  
+  .stu i {
+    color: #00306E;
+    padding-right: 7px;
+  }
+  
+  .stu p {
+    font-size: 15px;
+  }
+  
+  .stu h2 {
+    color: #D2093C;
+    font-size: 20px;
+  }
+
+
+.btncourse{
+    margin-top: 450px;
+}
+
+.btncourse button {
+    color: #00306E;
+    padding-right: 50px;
+    border: 1px solid lightgray;
+}
+
+.btncourse i {
+    color: #00306E;
+    position: relative;
+    top: -395px;
+    left: 82%;
+}
+
+.btncourse button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.enroll{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    background-color: #D2093C;
+    color: white;
+    width: 93%;
+    padding: 60px;
+    text-align: center;
+    margin-top: -20%;
+}
+
+.trained{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.num{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.enrolled{
+    letter-spacing: 3px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+  

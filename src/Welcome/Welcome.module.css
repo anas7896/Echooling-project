@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wel {
+    display: flex;
+    margin-top: -10px;
+}
+
+.well {
+    display: flex;
+    width: 45.4%;
+    position: relative;
+    top: 100px;
+    left: 4%;
+}
+
+.school {
+    width: 100%;
+    height: 100%;
+}
+
+.axb {
+    position: relative;
+    top: 250px;
+    left: -12.4%;
+    animation: moveUpDown 8s infinite; 
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-90px); 
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.LMS {
+    position: relative;
+    top: 160px;
+    font-family: sans-serif;
+    left: -3%;
+}
+
+.LMS h1 {
+    color: #00306E;
+    font-size: 45px;
+}
+
+.LMS h1 strong {
+    color: #D2093C;
+}
+
+.LMSP {
+    padding-top: 25px;
+    color: #777777;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+.questions a {
+    color: #D6214F;
+    font-weight: bold;
+}
+
+.questions {
+    color: #777777;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.hrs {
+    margin-top: 50px;
+    margin-bottom: 17px;
+}
+
+.education {
+    color: #777777;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.bb {
+    position: relative;
+    top: 67%; 
+    left: -4%;
+}
+
+.bb button {
+    position: relative;
+    top: -360px;
+    left: 4.3%;
+    color: #00306E;
+    padding: 16px 50px 16px 40px;
+    text-align: center;
+    border-color: #e3e8ef;
+}
+
+.btnarr{
+    position: relative;
+    top: -394px;
+    left: 26.5%;
+    width: 18px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #D2093C;
+    color: white;
+}
+
+.bb:hover img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(200%) contrast(100%);
+}
+
+.support i{
+    font-size: 40px;
+    position: absolute;
+    left: 37%;
+    color: #00306E;
+    border-radius: 50%;
+}
+
+.support span{
+    font-size: 14px;
+    color: lightgray;
+    font-family: sans-serif;
+}
+
+.support strong:hover{
+    color: #D2093C;
+    cursor: pointer;
+}
+
+.support{  
+    font-family: sans-serif;
+    margin-left: 240px;
+    margin-top: -10px;
+}
+
+.campus{
+    font-family: sans-serif;
+    position: absolute;
+    top: 330%;
+    left: 40%;
+}
+
+.domore{
+    position: absolute;
+    top: 345%;
+    /* background-color: #F5F5F5; */
+    left: 8%;
+    display: block;
+}
+
+.do{
+    padding-left: 50px;
+    margin-top: -54px;
+    color: #00306E;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 3;
+}
+
+.dom{
+    padding-left: 50px;
+    color: rgb(82, 80, 80);
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.doar{
+    position: relative;
+    left: 95%;
+    top: -65px;
+}
+
+.doar i:hover{
+    background-color: #00306E;
+    color: white;
+    cursor: pointer;
+}
+
+.doar i{
+    border-radius: 50%;
+    border: 2px solid rgb(242, 239, 239);
+    padding: 13px;
+    color: #00306E;
+}
+
+.dohr{
+    margin-bottom: 40px;
+    margin-top: -10px;
+    width: 600px;
+    color: rgb(240, 227, 227);
+}
+
+.campusimg{
+    position: relative;
+    left: 115%;
+    top: -470px;
+}
+
+.capmbtn img{
+    left: 39%;
+}
+
+
+.baga1{
+    position: relative;
+    top: 67%; 
+    left: 70%;
+}
+
+.baga1 button {
+    position: relative;
+    top: -360px;
+    left: 4.3%;
+    color: #00306E;
+    padding: 16px 50px 16px 40px;
+    text-align: center;
+    border-color: #e3e8ef;
+}
+
+.baga2{
+    position: relative;
+    top: -394.5px;
+    left: 39%;
+    width: 18px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #D2093C;
+    color: white;
+}
+
+.baga1:hover img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(200%) contrast(100%);
+}
+
+
+
+
+
+

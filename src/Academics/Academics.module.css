@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Aca{
+    margin-bottom: -90px;
+}
+
+.academics{
+    text-align: center;
+    position: relative;
+    top: -108px;
+    font-family:sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+    color: #00306E;
+}
+
+.down{
+    position: relative;
+    left: 45%;
+    top: -110px;
+}
